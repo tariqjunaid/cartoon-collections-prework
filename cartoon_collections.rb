@@ -10,8 +10,8 @@ def long_planeteer_calls(ary)
   ary.any? { |x| x.length > 4 }
 end
 
-def find_the_cheese(ary)
+def find_the_cheese(cheese_types)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
- ary.find { |x| x = cheese_types }
+ cheese_types.find { |x| x = cheese_types }
 end

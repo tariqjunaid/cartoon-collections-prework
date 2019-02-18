@@ -11,7 +11,6 @@ def long_planeteer_calls(ary)
 end
 
 def find_the_cheese(ary)
-  
   cheese_types = ["cheddar", "gouda", "camembert"]
- ary.find { |x| cheese_types.include?(x) }
+  ary.find { |x| cheese_types.include?(x) }
 end
